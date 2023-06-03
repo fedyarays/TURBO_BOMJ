@@ -4,7 +4,7 @@ project(TURBO_BOMJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(TURBO_BOMJ
-        main.cpp sum.cpp sum.h test.cpp)
+        sum.cpp sum.h test.cpp)
 
 add_library(doctest STATIC doctest.cpp)
 # depend on some obvious c++11 features so the dependency is transitively added dependents
